@@ -201,6 +201,15 @@
     <ClCompile Include="SpriteStudioForSiv3D\Player\SSAnimationPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\SSEffectModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Common\SSTreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\Effect\SSXMLEffectPerser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -1038,6 +1047,79 @@
     <ClInclude Include="SpriteStudioForSiv3D\Controller\Interpolation\SSInterpolationUtilities.ipp" />
     <ClInclude Include="SpriteStudioForSiv3D\Data\AnimationPack\Animation\Attribute\Value\SSAnimationAttributeValueCell.ipp" />
     <ClInclude Include="SpriteStudioForSiv3D\Drawer\SSAnimationDrawer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementAlphaFade.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementBasic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementDelay.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementGravity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInfiniteEmitEnabled.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInitializeColor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInitializeSize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementPointGravity.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementPosition.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementRandomSeedChange.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementRotation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTangentialAcceleration.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformColor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformRotation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformSize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformSpeed.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTurnToDirectionEnabled.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\SSEffectBehavior.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\SSEffectModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\SSEffectNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSRangeValue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSRangeValue.ipp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSTreeNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Loader\XML\Parser\Effect\SSXMLEffectPerser.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

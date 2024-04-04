@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Common\SSOutputDebugLog.cpp" />
+    <ClCompile Include="SpriteStudioForSiv3D\Common\SSTreeNode.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Controller\Interpolation\SSInterpolationUtilities.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Controller\PartState\SSAnimationPartState.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Controller\PartState\SSAnimationPartStateBuilder.cpp" />
@@ -125,12 +126,14 @@
     <ClCompile Include="SpriteStudioForSiv3D\Data\AnimationPack\Animation\SSAnimation.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Data\AnimationPack\Animation\SSAnimationPart.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Data\AnimationPack\SSAnimationPack.cpp" />
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\SSEffectModel.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Data\Project\SSProject.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Drawer\SSAnimationDrawer.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\SSLoaderFactory.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\SSLoadUtilities.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\AnimationPack\SSXMLAnimationPackParser.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\Cellmap\SSXMLCellmapParser.cpp" />
+    <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\Effect\SSXMLEffectPerser.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\Project\SSXMLProjectParser.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\SSXMLParserUtilities.cpp" />
     <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\SSXMLLoader.cpp" />
@@ -334,13 +337,38 @@
     <Xml Include="App\example\xml\test.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSRangeValue.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSRangeValue.ipp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSTreeNode.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Controller\Interpolation\SSInterpolationUtilities.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Controller\Interpolation\SSInterpolationUtilities.ipp" />
     <ClInclude Include="SpriteStudioForSiv3D\Controller\PartState\SSAnimationPartStateBuilder.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Controller\PartState\SSAnimationPartStateInstance.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Controller\PartState\SSAnimationPartStateMesh.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Data\AnimationPack\Animation\Attribute\Value\SSAnimationAttributeValueCell.ipp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElement.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementAlphaFade.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementBasic.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementDelay.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementGravity.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInfiniteEmitEnabled.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInitializeColor.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInitializeSize.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementPointGravity.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementPosition.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementRandomSeedChange.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementRotation.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTangentialAcceleration.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformColor.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformRotation.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformSize.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformSpeed.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTurnToDirectionEnabled.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\SSEffectBehavior.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\SSEffectModel.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Data\Effect\SSEffectNode.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Drawer\SSAnimationDrawer.hpp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Loader\XML\Parser\Effect\SSXMLEffectPerser.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Player\SSAnimationPlayer.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Common\SSOutputDebugLog.hpp" />
     <ClInclude Include="SpriteStudioForSiv3D\Common\SSTypeDefine.hpp" />
