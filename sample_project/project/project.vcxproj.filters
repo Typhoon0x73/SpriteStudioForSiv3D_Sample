@@ -210,6 +210,63 @@
     <ClCompile Include="SpriteStudioForSiv3D\Loader\XML\Parser\Effect\SSXMLEffectPerser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Controller\SSEffectController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Controller\Effect\Emitter\SSEffectEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementAlphaFade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementBasic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementDelay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementGravity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInfiniteEmitEnabled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInitializeColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementInitializeSize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementPointGravity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementRandomSeedChange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementRotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTangentialAcceleration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformColor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformRotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformSize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTransformSpeed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteStudioForSiv3D\Data\Effect\Element\SSEffectElementTurnToDirectionEnabled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="App\icon.ico">
@@ -1120,6 +1177,28 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SpriteStudioForSiv3D\Loader\XML\Parser\Effect\SSXMLEffectPerser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSXORShift32.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Common\SSXORShift32.ipp" />
+    <ClInclude Include="SpriteStudioForSiv3D\Controller\SSEffectController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Controller\Effect\Emitter\Pattern\SSEffectEmitterPattern.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Controller\Effect\Emitter\SSEffectEmitter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Controller\Effect\Emitter\SSEffectEmitterParam.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Controller\Effect\Particle\SSEffectParticle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteStudioForSiv3D\Controller\Effect\Particle\SSEffectParticleParam.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
